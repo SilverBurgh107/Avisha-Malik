@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+.logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+.logo img{
+    width: 50%;
+    border: .2rem solid white;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    cursor: pointer;
+}
+
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    font-size: 2.3rem;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 2.6rem 3.0rem;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Syne Mono', monospace;
+    font-size: 3.0rem;
+    font-weight: bold;
+}
+
+.nav-list li a:hover{
+    color: rgb(197, 185, 226);
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.home-video img{
+    width: 152rem;
+    height: 57.4rem;
+}
+
+.intro-title{
+    padding: 2.0rem 35.0rem;
+}
+
+.intro-title p{
+    font-weight: bold;
+    color: white;
+    font-family: 'Syne Mono', monospace;
+    font-size: 5.5rem;
+    text-align: center;
+    padding-top: 12rem;
+}
+
+.intro{
+padding: 2rem 40rem;
+}
+
+.intro p{
+    color: rgb(233, 224, 255);
+    font-family: 'Neucha', cursive;
+    font-size: 3rem;
+    text-align: justify;
+}
+
+.first{
+    display: flex;
+}
+
+.first p{
+    padding-top: 2rem;
+}
+
+.conclusion{
+    padding: 2rem 20rem;
+    }
+    
+.conclusion table{
+    color: rgb(233, 224, 255);
+    font-family: 'Neucha', cursive;
+    font-size: 2rem;
+    text-align: justify;
+    border: .7rem solid #FBEBFF;
+    font-weight: bold;
+}
+
+.conclusion table td{
+    padding: 1rem 2rem;
+}
+
+.table-title{
+    font-weight: bold;
+    color: white;
+    font-family: 'Syne Mono', monospace;
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+.topic-title{
+    color:rgb(233, 224, 255);
+    font-family: 'Syne Mono', monospace;
+    font-size: 5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.footer{
+    background-color: black;
+}
+
+.reflist{
+    padding: 2rem;
+}
+.main-ref{
+    color: white;
+    padding: 1rem 10rem;
+}
+
+.footer-title{
+    text-decoration: none;
+    color: white;
+    font-family: 'Syne Mono', monospace;
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 0 30rem;
+    padding-bottom: 6rem;
+    text-align: center;
+}
+
+.main-ref li{
+    display: flex;
+    color: rgb(233, 224, 255);
+    font-family: 'Neucha', cursive;
+    font-size: 3rem;
+    text-align: justify;
+    font-weight: bolder;
+}
+
+.reflist li a{
+    display: flex;
+    color: white;
+    font-family: 'Neucha', cursive;
+    font-size: 2rem;
+    text-align: justify;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.reflist ul li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bolder;
+    color:rgb(186, 171, 221);
+}
+
+.copyright{
+    text-decoration: none;
+    color: white;
+    font-family: 'Syne Mono', monospace;
+    font-size: 2rem;
+    font-weight:lighter;
+    padding: 1rem 30rem;
+    text-align: center;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Syne Mono', monospace;
+    font-size: 2rem;
+}
+
+.copyright a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bolder;
+    color:rgb(186, 171, 221);
+}
+
+.lists{
+    display: flex;
+    align-items:center;
+    padding-left: 30rem;
+}
+
+.list2{
+    padding: 2rem 20rem;
+}
+
+.burger{
+    display: none;
+    position:absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 1.5rem;
+}
+
+.line{
+    width: 3.4rem;
+    background-color: white;
+    height: .2rem;
+    margin: .5rem .3rem;
+}
+
+.hr{
+    height: .1rem; 
+    background-color: white;
+    margin: 1rem;
+}
+
+@media only screen and (max-width: 1355px) {
+    html{
+        font-size: 50%;
+    }
+}
+
+@media only screen and (max-width: 1146px) {
+    html{
+        font-size: 45%;
+    }
+}
+
+@media only screen and (max-width: 1035px) {
+    html{
+        font-size: 40%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    html{
+        font-size: 35%;
+    }
+}
+
+@media only screen and (max-width: 854px) {
+    html{
+        font-size: 30%;
+    }
+}
+
+@media only screen and (max-width: 785px) {
+    html{
+        font-size: 25%;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    html{
+        font-size: 20%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    html{
+        font-size: 20%;
+    }
+
+    .first iframe{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    html{
+        font-size: 20%;
+    }
+    
+    .navbar{
+        height: 35rem;
+    }
+
+    .nav-list{
+        flex-direction: column;
+    }
+
+    .logo img{
+        width: 12rem;
+    }
+
+    .intro{
+        padding: 5rem 10rem;
+    }
+
+    .intro-title{
+        padding-top: 22rem;
+    }
+
+    .conclusion{
+        padding: 1rem 2rem;
+    }
+}
